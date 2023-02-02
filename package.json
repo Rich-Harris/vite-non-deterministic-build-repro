@@ -4,7 +4,7 @@
 	"private": true,
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build && cd .svelte-kit/output/client/_app/immutable && find . | sort",
+		"build": "vite build && cd .svelte-kit/output/client/_app/immutable && find . -type f | sort",
 		"test": "npm run build"
 	},
 	"devDependencies": {
