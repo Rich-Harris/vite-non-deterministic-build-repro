@@ -1,0 +1,17 @@
+{
+	"name": "my-app-reproducibility",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build && cd .svelte-kit/output/client/_app/immutable && find . | sort",
+		"test": "npm run build"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^1.0.1",
+		"svelte": "^3.55.0",
+		"svelte-check": "^3.0.1",
+		"vite": "^4.0.3"
+	},
+	"type": "module"
+}
