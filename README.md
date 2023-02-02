@@ -2,6 +2,7 @@
 
 ```
 git clone git@github.com:Rich-Harris/vite-non-deterministic-build-repro.git
+cd vite-non-deterministic-build-repro
 pnpm i
 pnpm test
 pnpm test
